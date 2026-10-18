@@ -43,6 +43,9 @@ button.alt,.up{background:#6fb7ff;box-shadow:0 6px 0 #4a8fd6}
 .polaroid:hover{transform:rotate(0) scale(1.06)}
 .polaroid div{aspect-ratio:1;background:#ffe4f1 center/cover;display:grid;place-items:center;font-size:44px;margin-bottom:8px}
 .wtitle{font-family:Pacifico,cursive;font-weight:400;font-size:clamp(28px,7vw,40px);color:var(--pink);margin:40px 0 20px}
+.group{background:#fff;padding:12px 12px 14px;width:min(360px,100%);margin:0 auto 34px;border-radius:6px;box-shadow:0 14px 34px #0003;transform:rotate(-2deg);color:#5a2a4a;font-family:Pacifico,cursive;font-size:18px;position:relative}
+.group::before{content:"⭐ wishers squad ⭐";position:absolute;top:-16px;left:50%;transform:translateX(-50%) rotate(2deg);background:#ffe066;color:#5a2a4a;font:700 14px Quicksand,sans-serif;padding:6px 14px;border-radius:999px;white-space:nowrap;box-shadow:0 3px 8px #0002}
+.group img{display:block;width:100%;border-radius:3px;margin-bottom:10px}
 .polaroid .rot{position:relative;overflow:hidden}
 .polaroid .rot i{position:absolute;inset:0;background:center/cover;transform:rotate(90deg)}
 .note{background:var(--card);border-radius:24px;padding:28px 22px;font-size:19px;line-height:1.7;box-shadow:0 10px 30px #0001;backdrop-filter:blur(6px)}
@@ -88,6 +91,7 @@ small{opacity:.7}
     Love you to the moon and back 🌙💕
   </div>
   <h2 class="wtitle">Sending you love 💌</h2>
+  <div class="group"><img src="photos/wishers-group.webp" alt="Everyone sending Olly finger hearts on a video call"><p>All of us, all heart, all for you, Olly! 💖</p></div>
   <div class="photos wishers">
     <div class="polaroid"><div style="background-image:url(photos/wisher1.webp);background-position:center 30%"></div>finger hearts for you 💗</div>
     <div class="polaroid"><div class="rot"><i style="background-image:url(photos/wisher2.webp)"></i></div>lots of love 💕</div>
