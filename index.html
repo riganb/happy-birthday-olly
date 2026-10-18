@@ -42,6 +42,9 @@ button.alt,.up{background:#6fb7ff;box-shadow:0 6px 0 #4a8fd6}
 .polaroid:nth-child(odd){transform:rotate(-5deg)}.polaroid:nth-child(even){transform:rotate(4deg)}
 .polaroid:hover{transform:rotate(0) scale(1.06)}
 .polaroid div{aspect-ratio:1;background:#ffe4f1 center/cover;display:grid;place-items:center;font-size:44px;margin-bottom:8px}
+.wtitle{font-family:Pacifico,cursive;font-weight:400;font-size:clamp(28px,7vw,40px);color:var(--pink);margin:40px 0 20px}
+.polaroid .rot{position:relative;overflow:hidden}
+.polaroid .rot i{position:absolute;inset:0;background:center/cover;transform:rotate(90deg)}
 .note{background:var(--card);border-radius:24px;padding:28px 22px;font-size:19px;line-height:1.7;box-shadow:0 10px 30px #0001;backdrop-filter:blur(6px)}
 .note b{color:var(--pink)}
 .cake{font-size:64px;cursor:pointer;margin:30px 0 8px;display:inline-block}
@@ -83,6 +86,12 @@ small{opacity:.7}
     Today is all about YOU! You're 11 now, double digits and double the awesome! 🎈 May your day be full of cake, giggles, sparkly surprises and all your favourite things.
     You make every day brighter, and I'm so lucky to be your sibling. Never stop being amazing! 🌈✨<br><br>
     Love you to the moon and back 🌙💕
+  </div>
+  <h2 class="wtitle">Sending you love 💌</h2>
+  <div class="photos wishers">
+    <div class="polaroid"><div style="background-image:url(photos/wisher1.webp);background-position:center 30%"></div>finger hearts for you 🫰</div>
+    <div class="polaroid"><div class="rot"><i style="background-image:url(photos/wisher2.webp)"></i></div>lots of love 💕</div>
+    <div class="polaroid"><div style="background-image:url(photos/wisher3.webp);background-position:center 20%"></div>big hugs, Olly 🤗</div>
   </div>
   <div class="cake" id="cake" title="Make a wish!">🎂</div><br>
   <small>tap the cake and make a wish ✨</small>
